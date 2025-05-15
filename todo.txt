@@ -1,0 +1,28 @@
+- [ ] Add a homepage with a brief introduction
+
+// Keep all of the new sections not on separate pages but on the same page
+
+- [ ] Create a "Projects" section to showcase personal projects
+    - [ ] Add project descriptions
+    - [ ] Include links to GitHub repositories
+    - [ ] Add screenshots or demos of projects
+- [ ] Add a "Resume" section
+    - [ ] Upload a downloadable PDF version of the resume
+    - [ ] Create a web-friendly version of the resume
+- [ ] Add a "Contact" section with:
+    - [ ] Email address
+    - [ ] Social media links (LinkedIn, GitHub, etc.)
+    - [ ] Contact form
+- [ ] Implement responsive design for mobile and desktop
+- [ ] Add a navigation bar for easy access to sections
+- [ ] Optimize website for SEO
+- [ ] Test website on multiple browsers
+- [ ] Deploy website to a hosting platform
+
+
+
+Color Schemes: 
+Primary: #1A1A1A (Dark Charcoal)
+Accent: #EAEAEA (Light Gray)
+Highlight: #007BFF (Electric Blue)
+Background: #FFFFFF (White)
