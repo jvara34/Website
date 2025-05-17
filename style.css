@@ -58,7 +58,7 @@ nav a {
   .btn:active {
     transform: translateY(0);        /* Return to normal when clicked */
   }
-<!-- Add Intro to CSS-->
+/* Added intro section */ 
 
 #intro {
     padding-bottom: 2rem;
@@ -87,7 +87,7 @@ nav a {
 }
 
 .profile-image {
-    width: 200px;       /* Adjust width as needed */
+    width: 400px;       /* Adjust width as needed */
     height: auto;       /* Keeps aspect ratio */
     object-fit: cover;  /* Ensures it fills the shape nicely */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow */

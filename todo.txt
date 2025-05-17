@@ -8,6 +8,8 @@
     - [ ] Add project descriptions
     - [ ] Include links to GitHub repositories
     - [ ] Add screenshots or demos of projects
+    - [ ] Add Dataset Exoplanet Code to github 
+    - [ ] Add Photo of Dataset exoplanet to website 
 - [x] Add a "Resume" section
     - [x] Upload a downloadable PDF version of the resume
     - [x] Create a web-friendly version of the resume
