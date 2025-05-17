@@ -22,6 +22,8 @@ header {
     padding: 1rem 0;
     text-align: center;
 }
+
+
 nav {
     margin: 1rem 0;
     float: right;
@@ -32,23 +34,74 @@ nav a {
     text-decoration: none;
     margin: 0 1rem;
 }
+
+.btn {
+    background-color: var(--secondary-color);        /* Highlight color */
+    color: var(--primary-color);                   /* White text */
+    border: none;
+    padding: 12px 24px;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 6px;
+    cursor: pointer;
+    text-decoration: none;           /* Removes underline from <a> */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    display: inline-block;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3; 
+    color: var(--text-color);      /* Darker shade of blue on hover */
+    transform: translateY(-2px);     /* Subtle lift */
+  }
+  
+  .btn:active {
+    transform: translateY(0);        /* Return to normal when clicked */
+  }
 <!-- Add Intro to CSS-->
+
 #intro {
     padding-bottom: 2rem;
 }
-section {
-    padding: 2rem;
-}
+
 
 #intro p {
     font-size: 1.2rem;
     line-height: 1;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 #intro h1 {
-    font-size: 2.5rem;
+    font-size: 4rem;
     margin: 0;
     color: var(--highlight);
+}
+/*Beginning of about section*/
+.about-section {
+    display: flex;
+    align-items: center;      /* Vertically align image and text */
+    gap: 40px;                /* Space between image and text */
+    flex-wrap: wrap;          /* Makes it responsive */
+}
+.image-container {
+    flex: 0 0 150px;          /* Fixed width for the image */
+}
+
+.profile-image {
+    width: 200px;       /* Adjust width as needed */
+    height: auto;       /* Keeps aspect ratio */
+    object-fit: cover;  /* Ensures it fills the shape nicely */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow */
+    padding-right: 40px;
+  }
+  
+.text-container {
+flex: 1;                  /* Let text take remaining space */
+min-width: 250px;         /* Prevent text from getting too narrow on wrap */
+}
+/*End of about section*/ 
+
+section {
+    padding: 5rem;
 }
 
 footer {
