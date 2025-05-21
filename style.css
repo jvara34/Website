@@ -93,12 +93,25 @@ nav a {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow */
     padding-right: 40px;
   }
+
+.project-image {
+    width: 250px;
+    height: auto; 
+    object-fit: cover;
+    padding-right: 40px; 
+
+}
   
 .text-container {
 flex: 1;                  /* Let text take remaining space */
 min-width: 250px;         /* Prevent text from getting too narrow on wrap */
 }
 /*End of about section*/ 
+
+a:visited {
+    color: inherit; /* Inherits the parent element's color */
+    text-decoration: none; /* Optional: Removes the underline */
+  }
 
 section {
     padding: 5rem;

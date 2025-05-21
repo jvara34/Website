@@ -23,7 +23,8 @@
 - [ ] Test website on multiple browsers
 - [ ] Deploy website to a hosting platform
 
-
+FUTURE IDEAS 
+- [ ] Light mode and Dark mode using javascript? 
 
 Color Schemes: 
 Primary: #1A1A1A (Dark Charcoal)
