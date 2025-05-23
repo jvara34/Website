@@ -4,27 +4,32 @@
 - [x] Add about section 
     - [x] talk about myself 
     - [x] add photo 
-- [ ] Create a "Projects" section to showcase personal projects
-    - [ ] Add project descriptions
-    - [ ] Include links to GitHub repositories
-    - [ ] Add screenshots or demos of projects
-    - [ ] Add Dataset Exoplanet Code to github 
-    - [ ] Add Photo of Dataset exoplanet to website 
+- [x] Create a "Projects" section to showcase personal projects
+    - [x] Add project descriptions
+    - [x] Include links to GitHub repositories
+    - [x] Add screenshots or demos of projects
+    - [x] Add Dataset Exoplanet Code to github 
+    - [x] Add Photo of Dataset exoplanet to website 
 - [x] Add a "Resume" section
     - [x] Upload a downloadable PDF version of the resume
     - [x] Create a web-friendly version of the resume
 - [ ] Add a "Contact" section with:
     - [ ] Email address
     - [ ] Social media links (LinkedIn, GitHub, etc.)
-    - [ ] Contact form
+    - [x] Contact form
 - [ ] Implement responsive design for mobile and desktop
-- [ ] Add a navigation bar for easy access to sections
+- [x] Add a navigation bar for easy access to sections
 - [ ] Optimize website for SEO
 - [ ] Test website on multiple browsers
 - [ ] Deploy website to a hosting platform
 
 FUTURE IDEAS 
 - [ ] Light mode and Dark mode using javascript? 
+- [ ] Add design to the texts 
+- [ ] Add icons for the contacts intead of adding the links to look nicer
+- [ ] center the text to be more in the middle of the webpage 
+- [ ] Clean up Project Section 
+- [ ] Fix about me photo
 
 Color Schemes: 
 Primary: #1A1A1A (Dark Charcoal)

@@ -81,6 +81,7 @@ nav a {
     align-items: center;      /* Vertically align image and text */
     gap: 40px;                /* Space between image and text */
     flex-wrap: wrap;          /* Makes it responsive */
+    padding: 2rem 0; 
 }
 .image-container {
     flex: 0 0 150px;          /* Fixed width for the image */
@@ -94,17 +95,19 @@ nav a {
     padding-right: 40px;
   }
 
+
+  
+.text-container {
+flex: 1;                  /* Let text take remaining space */
+min-width: 250px;         /* Prevent text from getting too narrow on wrap */
+}
+
 .project-image {
     width: 250px;
     height: auto; 
     object-fit: cover;
     padding-right: 40px; 
 
-}
-  
-.text-container {
-flex: 1;                  /* Let text take remaining space */
-min-width: 250px;         /* Prevent text from getting too narrow on wrap */
 }
 /*End of about section*/ 
 
