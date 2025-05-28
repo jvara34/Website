@@ -14,9 +14,10 @@
     - [x] Upload a downloadable PDF version of the resume
     - [x] Create a web-friendly version of the resume
 - [ ] Add a "Contact" section with:
-    - [ ] Email address
-    - [ ] Social media links (LinkedIn, GitHub, etc.)
+    - [x] Email address
+    - [x] Social media links (LinkedIn, GitHub, etc.)
     - [x] Contact form
+    - [ ] Change how to interact with the Contact Icons use Website for Reference 
 - [ ] Implement responsive design for mobile and desktop
 - [x] Add a navigation bar for easy access to sections
 - [ ] Optimize website for SEO
