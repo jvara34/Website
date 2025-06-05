@@ -19,7 +19,6 @@ body {
 header {
     background: var(--primary-color);
     color: var(--text-color);
-    padding: 1rem 0;
     text-align: center;
 }
 
@@ -27,7 +26,8 @@ header {
 nav {
     margin: 1rem 0;
     float: right;
-    padding: 10;
+    display: flex;
+
 }
 nav a {
     color: var(--text-color);
@@ -47,17 +47,17 @@ nav a {
     text-decoration: none;           /* Removes underline from <a> */
     transition: background-color 0.3s ease, transform 0.2s ease;
     display: inline-block;
-  }
+}
   
-  .btn:hover {
-    background-color: #0056b3; 
-    color: var(--text-color);      /* Darker shade of blue on hover */
-    transform: translateY(-2px);     /* Subtle lift */
-  }
+.btn:hover {
+background-color: #0056b3; 
+color: var(--text-color);      /* Darker shade of blue on hover */
+transform: translateY(-2px);     /* Subtle lift */
+}
   
-  .btn:active {
-    transform: translateY(0);        /* Return to normal when clicked */
-  }
+.btn:active {
+transform: translateY(0);        /* Return to normal when clicked */
+}
 /* Added intro section */ 
 
 #intro {
@@ -114,14 +114,34 @@ min-width: 250px;         /* Prevent text from getting too narrow on wrap */
 /* Contact Section */ 
 
 
-.contact-icons {
-
-    padding: 1rem 0;
-}
-
-.contact {
-    padding-bottom: 2rem 0;
-}
+#contact {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: var(--primary-color);
+  }
+  
+  #contact h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .contact-icons {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    color: var(--text-color)
+  }
+  
+  .contact-icons a {
+    color: #333;
+    font-size: 2rem;
+    transition: color 0.3s;
+  }
+  
+  .contact-icons a:hover {
+    color: var(--highlight); /* or any hover color you prefer */
+  }
 
 a:visited {
     color: inherit; /* Inherits the parent element's color */
