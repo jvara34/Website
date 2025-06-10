@@ -4,6 +4,7 @@
 - [x] Add about section 
     - [x] talk about myself 
     - [x] add photo 
+    - [ ] add texture to the text 
 - [x] Create a "Projects" section to showcase personal projects
     - [x] Add project descriptions
     - [x] Include links to GitHub repositories
@@ -13,21 +14,22 @@
 - [x] Add a "Resume" section
     - [x] Upload a downloadable PDF version of the resume
     - [x] Create a web-friendly version of the resume
+    - [ ] Update Resume 
 - [ ] Add a "Contact" section with:
     - [x] Email address
     - [x] Social media links (LinkedIn, GitHub, etc.)
     - [x] Contact form
-    - [ ] Change how to interact with the Contact Icons use Website for Reference 
+    - [x] Change how to interact with the Contact Icons use Website for Reference 
 - [ ] Implement responsive design for mobile and desktop
 - [x] Add a navigation bar for easy access to sections
 - [ ] Optimize website for SEO
 - [ ] Test website on multiple browsers
-- [ ] Deploy website to a hosting platform
+- [ ] Deploy website to github pages 
 
 FUTURE IDEAS 
 - [ ] Light mode and Dark mode using javascript? 
 - [ ] Add design to the texts 
-- [ ] Add icons for the contacts intead of adding the links to look nicer
+- [x] Add icons for the contacts intead of adding the links to look nicer
 - [ ] center the text to be more in the middle of the webpage 
 - [ ] Clean up Project Section 
 - [ ] Fix about me photo

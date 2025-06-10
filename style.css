@@ -27,7 +27,7 @@ nav {
     margin: 1rem 0;
     float: right;
     display: flex;
-
+    position: relative;
 }
 nav a {
     color: var(--text-color);
@@ -39,7 +39,7 @@ nav a {
     background-color: var(--secondary-color);        /* Highlight color */
     color: var(--primary-color);                   /* White text */
     border: none;
-    padding: 12px 24px;
+    padding: 5px ;
     font-size: 1rem;
     font-weight: 500;
     border-radius: 6px;
@@ -98,8 +98,8 @@ transform: translateY(0);        /* Return to normal when clicked */
 
   
 .text-container {
-flex: 1;                  /* Let text take remaining space */
-min-width: 250px;         /* Prevent text from getting too narrow on wrap */
+    flex: 1;                  /* Let text take remaining space */
+    min-width: 250px;         /* Prevent text from getting too narrow on wrap */
 }
 
 .project-image {
@@ -130,12 +130,12 @@ min-width: 250px;         /* Prevent text from getting too narrow on wrap */
     justify-content: center;
     gap: 30px;
     flex-wrap: wrap;
-    color: var(--text-color)
+    
   }
   
   .contact-icons a {
-    color: #333;
-    font-size: 2rem;
+    color: var(--secondary-color);
+    font-size: 1.5rem;
     transition: color 0.3s;
   }
   
@@ -149,15 +149,12 @@ a:visited {
   }
 
 section {
-    padding: 5rem;
+    padding: 1rem;
 }
 
 footer {
     background: var(--primary-color);
     color: var(--text-color);
     text-align: center;
-    padding: 1rem 0;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+    position: relative;
 }
