@@ -15,6 +15,7 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
+    content: center;
 }
 header {
     background: var(--primary-color);
@@ -88,7 +89,7 @@ transform: translateY(0);        /* Return to normal when clicked */
 }
 
 .profile-image {
-    width: 400px;       /* Adjust width as needed */
+    width: 300px;       /* Adjust width as needed */
     height: auto;       /* Keeps aspect ratio */
     object-fit: cover;  /* Ensures it fills the shape nicely */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow */
@@ -149,7 +150,9 @@ a:visited {
   }
 
 section {
-    padding: 1rem;
+    padding: 10rem;
+    margin: 0px auto;
+
 }
 
 footer {
