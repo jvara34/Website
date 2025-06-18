@@ -149,11 +149,12 @@ a:visited {
     text-decoration: none; /* Optional: Removes the underline */
   }
 
-section {
-    padding: 10rem;
-    margin: 0px auto;
 
+section {
+    padding: 20rem;
+    margin: 0px auto;
 }
+
 
 footer {
     background: var(--primary-color);
